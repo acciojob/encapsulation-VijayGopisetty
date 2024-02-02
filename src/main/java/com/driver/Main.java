@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args){
         RWOnly obj=new RWOnly();
         //java: name has private access in com.driver.RWOnly
-        obj.setname(5);
-        System.out.println(obj.getname());
+        obj.setName("Vijay");
+        System.out.println(obj.getName());
     }
   
 }
